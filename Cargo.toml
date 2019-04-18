@@ -1,0 +1,23 @@
+[package]
+name = "benchme"
+version = "0.1.0"
+authors = ["Connor Postma <connor.postma@gmail.com>"]
+license = "MIT OR Apache-2.0"
+description = "Macros to easily / cleanly benchmark code blocks"
+edition = "2018"
+readme = "README.md"
+homepage = "https://github.com/connorbp/benchme"
+repository = "https://github.com/connorbp/benchme"
+keywords = ["benchmark", "macro", "speed", "cli", "bench"]
+categories = ["command-line-utilities", "development-tools"]
+
+exclude = [
+    
+]
+
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+]
+
+[dependencies]
