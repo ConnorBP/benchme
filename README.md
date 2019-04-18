@@ -4,6 +4,8 @@ A simple rust library to quickly benchmark your code blocks.
 
 > Check it out on [crates.io](https://crates.io/crates/benchme)
 
+[![benchme on crates.io](https://img.shields.io/crates/v/benchme.svg)](https://crates.io/crates/benchme)
+
 ## 🏎 usage 🚀
 
 ```rust
