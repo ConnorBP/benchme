@@ -1,6 +1,6 @@
 [package]
 name = "benchme"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Connor Postma <connor.postma@gmail.com>"]
 license = "MIT OR Apache-2.0"
 description = "Macros to easily / cleanly benchmark code blocks"
