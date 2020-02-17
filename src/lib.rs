@@ -29,7 +29,7 @@ macro_rules! runcount {
         #[$($name:ident)?,$timesec:expr,$timenano:expr]
         $($lines:stmt;)*
     ) => {
-        let dur = Duration::new($timesec, $timenano)
+        let dur = Duration::new($timesec, $timenano);
         let start = Instant::now();
         let mut count = 0;
         loop {
